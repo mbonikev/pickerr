@@ -12,7 +12,7 @@ function Home() {
       </div>
       {/* tweaks */}
       <div className="w-[32vw] max-w-[32vw] min-h-full bg-bodyColor">
-        <div className="w-full h-full bg-white rounded-2xl py-5">
+        <div className="w-full h-full bg-white rounded-2xl py-5 flex flex-col">
           <h1 className="px-5 text-xl font-medium mb-5 text-textColorWeak">Create Entries</h1>
           <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             {/* tabs */}

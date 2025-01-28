@@ -3,7 +3,7 @@ import { LuInfo, LuPalette, LuSettings } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
 function TopBar() {
-  const buttonStyle = `text-2xl h-[32px] aspect-square flex items-center justify-center cursor-pointer hover:bg-textColorWeak/20 rounded-xl outline-none`
+  const buttonStyle = `text-2xl h-[35px] aspect-square flex items-center justify-center cursor-pointer bg-white hover:bg-textColorWeak/20 rounded-xl outline-none`
   return (
     <div className="w-full h-[36px] flex items-center justify-start gap-1.5">
       {/* Logo */}

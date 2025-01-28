@@ -28,10 +28,6 @@ function Home() {
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className={`${tabStyle} text-textColorWeak border-transparent`}>
-              <LuListMinus className="text-lg" />
-              Lists
-            </button>
           </div>
         </div>
       </div>

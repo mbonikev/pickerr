@@ -1,6 +1,6 @@
 import React from "react";
 import TopBar from "../components/TopBar";
-import { LuListMinus } from "react-icons/lu";
+import { LuFileSpreadsheet, LuListMinus } from "react-icons/lu";
 
 function Home() {
   const tabStyle = `w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] outline-none cursor-pointer`
@@ -20,7 +20,7 @@ function Home() {
               Lists
             </button>
             <button className={`${tabStyle} text-textColorWeak border-transparent`}>
-              <LuListMinus className="text-lg" />
+              <LuFileSpreadsheet className="text-lg" />
               Excell Sheet
             </button>
             <button className={`${tabStyle} text-textColorWeak border-transparent`}>

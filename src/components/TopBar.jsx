@@ -21,13 +21,7 @@ function TopBar() {
       {/* Links */}
       <div className="flex-1 flex items-center justify-end px-4 gap-1">
         <button className={`${buttonStyle}`}>
-          <LuInfo />
-        </button>
-        <button className={`${buttonStyle}`}>
           <LuPalette />
-        </button>
-        <button className={`${buttonStyle}`}>
-          <LuSettings />
         </button>
         <Link
           to="/how-it-works"

@@ -18,15 +18,15 @@ function Home() {
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-full py-3 px-6 text-base font-medium flex items-center gap-1">
+            <button className="w-full py-3 px-6 text-base font-medium flex items-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-full py-3 px-6 text-base font-medium flex items-center gap-1">
+            <button className="w-full py-3 px-6 text-base font-medium flex items-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-full py-3 px-6 text-base font-medium flex items-center gap-1">
+            <button className="w-full py-3 px-6 text-base font-medium flex items-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />
               Lists
             </button>

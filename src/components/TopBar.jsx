@@ -10,7 +10,7 @@ function TopBar() {
         </div>
         <div className='h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak'>V1.0</div>
         {/* links */}
-        <div className='flex items-center justify-center px-3 gap-11'>
+        <div className='flex items-center justify-center px-3 gap-4'>
           <Link to="/" className='text-base'>Report</Link>
           <Link to="/" className='text-base'>Doc</Link>
           <Link to="/" className='text-base'></Link>

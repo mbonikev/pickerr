@@ -5,6 +5,8 @@ function Home() {
     <div className='w-full h-svh flex'>
         {/* content */}
         <div className='flex-1 min-h-full'></div>
+        {/* tweaks */}
+        <div className='flex-1 min-h-full'></div>
     </div>
   )
 }

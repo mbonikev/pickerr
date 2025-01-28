@@ -18,21 +18,31 @@ function Home() {
           </h1>
           <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             {/* tabs */}
-            <button
-              className={`${tabStyle} text-textColor border-textColor`}
-            >
+            <button className={`${tabStyle} text-textColor border-textColor`}>
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet
             </button>
-            <button className={`${tabStyle} text-textColorWeak border-transparent`}>
+            <button
+              className={`${tabStyle} text-textColorWeak border-transparent`}
+            >
               <LuListMinus className="text-lg" />
               Entry Lists
             </button>
           </div>
           <div className="flex-1 h-fit py-20 flex flex-col items-center justify-center gap-3 px-5 overflow-y-auto">
-            <img src="./assets/excell_example.png" className="w-full h-fit rounded-2xl shadow-xl mb-3" />
-            <h1 className="text-xl font-bold text-center">Import Excell File</h1>
-            <h1 className="text-base max-w-[400px] mb-4 font-normal text-textColorWeak text-center">Pickerr will automatically detect first column, make sure your entries are in the correct comun</h1>
+            <div className="w-full h-full">
+              <img
+                src="./assets/excell_example.png"
+                className="w-full h-fit rounded-2xl shadow-xl mb-3"
+              />
+            </div>
+            <h1 className="text-xl font-bold text-center">
+              Import Excell File
+            </h1>
+            <h1 className="text-base max-w-[400px] mb-4 font-normal text-textColorWeak text-center">
+              Pickerr will automatically detect first column, make sure your
+              entries are in the correct comun
+            </h1>
             <button
               className={`${tabStyle} max-w-[100px] border-transparent bg-mainColor text-white rounded-xl `}
             >

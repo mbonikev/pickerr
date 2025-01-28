@@ -5,7 +5,7 @@ function TopBar() {
     <div className='w-full flex items-center justify-start'>
         {/* logo */}
         <div className='w-fit miw-[120px]'>
-            <img src="./logo_black.png" alt="" />
+            <img src="./logo_black.png" alt="logo" className='' />
         </div>
     </div>
   )

@@ -13,9 +13,6 @@ function TopBar() {
       </div>
       {/* Links */}
       <div className="flex items-center justify-center px-4 gap-4">
-        <Link to="/" className="text-base">
-          Home
-        </Link>
         <Link to="/history" className="text-base">
           History
         </Link>

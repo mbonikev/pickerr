@@ -31,9 +31,9 @@ function Home() {
           </div>
           <div className="h-full py-10 flex items-center justify-center gap-3 px-5">
             <button
-              className={`${tabStyle} border-transparent bg-textColor text-white rounded-xl `}
+              className={`${tabStyle} max-w-[200px] border-transparent bg-textColor text-white rounded-xl `}
             >
-              Pick
+              Upload
             </button>
           </div>
           {/* <div className="flex-1 w-full p-5">

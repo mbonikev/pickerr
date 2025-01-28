@@ -19,12 +19,12 @@ function Home() {
           <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             {/* tabs */}
             <button
-              className={`${tabStyle} text-textColorWeak border-transparent`}
+              className={`${tabStyle} text-textColorWeak border-textColor`}
             >
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet
             </button>
-            <button className={`${tabStyle} border-textColor `}>
+            <button className={`${tabStyle} border-transparent`}>
               <LuListMinus className="text-lg" />
               Entry Lists
             </button>

@@ -23,12 +23,6 @@ function TopBar() {
         <button className={`${buttonStyle}`}>
           <LuPalette />
         </button>
-        <Link
-          to="/how-it-works"
-          className="text-base px-3 bg-mainColor text-white py-1 rounded-lg ml-2"
-        >
-          Sign in
-        </Link>
       </div>
     </div>
   );

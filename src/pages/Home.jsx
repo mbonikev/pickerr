@@ -29,7 +29,7 @@ function Home() {
             </button>
           </div>
           <div className="flex-1 h-fit py-20 flex flex-col items-center justify-center gap-3 px-5 overflow-y-auto">
-            <div className="w-full h-fit min-h-[300px] max-w-[300px] flex items-center justify-center">
+            <div className="w-full h-fit min-h-[300px] bg-red-500 max-w-[300px] flex items-center justify-center">
               <img
                 src="./assets/excell_example.png"
                 className="w-fit h-fit rounded-2xl shadow-xl mb-3 object-contain"

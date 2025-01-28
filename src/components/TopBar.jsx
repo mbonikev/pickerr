@@ -12,7 +12,7 @@ function TopBar() {
         V1.0
       </div>
       {/* Links */}
-      <div className="flex-1 flex items-center justify-center px-4 gap-4">
+      <div className="flex-1 flex items-center justify-end px-4 gap-4">
         <Link to="/history" className="text-base">
           History
         </Link>

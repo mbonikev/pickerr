@@ -23,7 +23,7 @@ function Home() {
                 className="h-[25px] w-fit"
               />
             </div>
-            <div className="h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak">
+            <div className="h-[20px] flex items-center justify-center bg-bodyColor px-2 rounded-xl text-sm font-medium text-textColorWeak">
               V1.0
             </div>
           </div>

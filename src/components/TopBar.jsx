@@ -22,7 +22,7 @@ function TopBar() {
         <button className="text-lg">
           <LuSettings />
         </button>
-        <Link to="/how-it-works" className="text-base px-3 bg-mainColor text-white py-1 rounded-xl">
+        <Link to="/how-it-works" className="text-base px-3 bg-mainColor text-white py-0.5 text-sm rounded-lg">
           Sign in
         </Link>
       </div>

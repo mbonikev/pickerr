@@ -10,7 +10,9 @@ function TopBar() {
         </div>
         <div className='h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak'>V1.0</div>
         {/* links */}
-        <div className='flex items-center justify-center px-3'></div>
+        <div className='flex items-center justify-center px-3'>
+          <Link to="/"></Link>
+        </div>
     </div>
   )
 }

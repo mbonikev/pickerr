@@ -20,7 +20,7 @@ function Home() {
             </button>
             <button className="w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />
-              Lists
+              Excell Sheet
             </button>
             <button className="w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />

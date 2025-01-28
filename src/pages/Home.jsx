@@ -13,7 +13,7 @@ function Home() {
       {/* tweaks */}
       <div className="w-[32vw] max-w-[32vw] min-h-full bg-bodyColor">
         <div className="w-full h-full bg-white rounded-2xl py-5">
-          <h1 className="px-5 text-xl font-medium mb-2">Create Entries</h1>
+          <h1 className="px-5 text-xl font-medium mb-">Create Entries</h1>
           <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             {/* tabs */}
             <button className={`${tabStyle} border-textColor `}>

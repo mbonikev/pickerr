@@ -19,9 +19,6 @@ function TopBar() {
       </div>
       {/* Links */}
       <div className="flex-1 flex items-center justify-end px-4 gap-3">
-        <Link to="/history" className="text-base">
-          History
-        </Link>
         <button className="text-lg">
           <LuSettings />
         </button>

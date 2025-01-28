@@ -9,8 +9,8 @@ function TopBar() {
             <img src="./logo_black.png" alt="logo" loading='lazy' className='h-[25px] w-fit' />
         </div>
         <div className='h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak'>V1.0</div>
-
         {/* links */}
+        <div className='flex items-center justify-center'></div>
     </div>
   )
 }

@@ -37,6 +37,19 @@ function Home() {
               className="w-full h-full bg-bodyColor rounded-2xl p-4 text-lg outline-none text-textColor placeholder:text-textColorWeak/60 resize-none"
             ></textarea>
           </div>
+          <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
+            {/* tabs */}
+            <button className={`${tabStyle} border-textColor `}>
+              <LuListMinus className="text-lg" />
+              Entry Lists
+            </button>
+            <button
+              className={`${tabStyle} text-textColorWeak border-transparent`}
+            >
+              <LuFileSpreadsheet className="text-lg" />
+              Excell Sheet
+            </button>
+          </div>
         </div>
       </div>
     </div>

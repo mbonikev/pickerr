@@ -18,15 +18,15 @@ function Home() {
           </h1>
           <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             {/* tabs */}
-            <button className={`${tabStyle} border-textColor `}>
-              <LuListMinus className="text-lg" />
-              Entry Lists
-            </button>
             <button
               className={`${tabStyle} text-textColorWeak border-transparent`}
             >
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet
+            </button>
+            <button className={`${tabStyle} border-textColor `}>
+              <LuListMinus className="text-lg" />
+              Entry Lists
             </button>
           </div>
           <div className="flex-1 w-full p-5">

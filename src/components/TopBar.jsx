@@ -7,6 +7,7 @@ function TopBar() {
         <div className='w-fit min-w-[120px]'>
             <img src="./logo_black.png" alt="logo" loading='lazy' className='h-[25px] w-fit' />
         </div>
+        {/* logo */}
     </div>
   )
 }

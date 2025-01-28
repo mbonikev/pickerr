@@ -4,7 +4,7 @@ function TopBar() {
   return (
     <div className='w-full flex items-center justify-start'>
         {/* logo */}
-        <div className=''></div>
+        <div className='w-fit miw-[120px]'></div>
     </div>
   )
 }

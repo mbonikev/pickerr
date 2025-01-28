@@ -3,7 +3,7 @@ import TopBar from "../components/TopBar";
 import { LuFileSpreadsheet, LuListMinus } from "react-icons/lu";
 
 function Home() {
-  const tabStyle = `w-full py-2 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] outline-none cursor-pointer`;
+  const tabStyle = `w-full py-2.5 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] outline-none cursor-pointer`;
   return (
     <div className="w-full h-svh flex bg-bodyColor p-4 gap-4">
       {/* content */}

@@ -5,7 +5,7 @@ function TopBar() {
   return (
     <div className='w-full h-[40px] bg-orange-600 flex items-center justify-start'>
         {/* logo */}
-        <div className='w-fit h-fit'>
+        <div className='w-fit h-full bg-red-500'>
             <img src="./logo_black.png" alt="logo" loading='lazy' className='h-[25px] w-fit' />
         </div>
         {/* links */}

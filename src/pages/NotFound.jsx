@@ -10,7 +10,7 @@ function NotFound() {
       </p>
       <a
         href="/"
-        className="mt-4 px-4 py-2 bg-mainColor text-white rounded-lg shadow hover:bg-mainColor/80 transition"
+        className="mt-4 px-4 py-2 bg-stone-800 text-white rounded-lg shadow hover:bg-mainColor/80 transition"
       >
         Go Back Home
       </a>

@@ -19,15 +19,15 @@ function Home() {
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className={`${tabStyle} border-transparent`}>
+            <button className={`${tabStyle} text-textColorWeak border-transparent`}>
               <LuListMinus className="text-lg" />
               Excell Sheet
             </button>
-            <button className={`${tabStyle} border-transparent`}>
+            <button className={`${tabStyle} text-textColorWeak border-transparent`}>
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className={`${tabStyle} border-transparent`}>
+            <button className={`${tabStyle} text-textColorWeak border-transparent`}>
               <LuListMinus className="text-lg" />
               Lists
             </button>

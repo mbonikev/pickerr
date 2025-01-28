@@ -19,6 +19,7 @@ function TopBar() {
         <Link to="/saved-lists" className="text-base">
           Saved Lists
         </Link>
+
         <Link to="/how-it-works" className="text-base">
           Sign in
         </Link>

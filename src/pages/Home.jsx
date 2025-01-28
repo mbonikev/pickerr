@@ -13,7 +13,7 @@ function Home() {
       {/* tweaks */}
       <div className="w-[32vw] max-w-[32vw] min-h-full bg-bodyColor">
         <div className="w-full h-full bg-white rounded-2xl">
-          <div className="w-full h-[36px] flex items-center justify-start gap-1.5 p-5">
+          <div className="w-full h-fit flex items-center justify-start gap-1.5 p-5">
             {/* Logo */}
             <div className="w-fit h-full">
               <img

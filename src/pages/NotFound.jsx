@@ -5,7 +5,7 @@ function NotFound() {
     <div className="p-3 flex flex-col items-center justify-center h-screen text-center">
       <h1 className="text-5xl font-bold mb-1 text-stone-800">404</h1>
       <p className="text-xl mb-2">Page Not Found</p>
-      <p className="text-gray-500 mb-2">
+      <p className="text-textColorWeak mb-2">
         The page you're looking for doesn't exist or has been moved.
       </p>
       <a

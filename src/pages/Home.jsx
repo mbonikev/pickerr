@@ -15,19 +15,19 @@ function Home() {
         <div className="w-full h-full bg-white rounded-2xl">
           <div className="border-b border-stone-200 flex items-center justify-center gap-3">
             {/* tabs */}
-            <button className="w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-textColor ">
+            <button className={`${tabSylr} border-textColor `}>
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
+            <button className={`${tabSylr} border-transparent`}>
               <LuListMinus className="text-lg" />
               Excell Sheet
             </button>
-            <button className="w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
+            <button className={`${tabSylr} border-transparent`}>
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
+            <button className={`${tabSylr} border-transparent`}>
               <LuListMinus className="text-lg" />
               Lists
             </button>

@@ -24,10 +24,6 @@ function Home() {
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet
             </button>
-            <button className={`${tabStyle} text-textColorWeak border-transparent`}>
-              <LuListMinus className="text-lg" />
-              Lists
-            </button>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { LuPalette, LuSettings } from "react-icons/lu";
+import { LuInfo, LuPalette, LuSettings } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
 function TopBar() {
@@ -21,7 +21,7 @@ function TopBar() {
       {/* Links */}
       <div className="flex-1 flex items-center justify-end px-4 gap-1">
         <button className={`${buttonStyle}`}>
-          <LuSettings />
+          <LuInfo />
         </button>
         <button className={`${buttonStyle}`}>
           <LuPalette />

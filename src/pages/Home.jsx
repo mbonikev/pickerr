@@ -15,7 +15,7 @@ function Home() {
           <div className="border-b border-stone-200 flex items-center justify-center">
             {/* tabs */}
             <button className="w-full py-3 px-6 text-base font-medium flex items-center gap-1">
-              <LuListMinus />
+              <LuListMinus className="text-lg" />
               Lists
             </button>
           </div>

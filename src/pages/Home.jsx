@@ -28,7 +28,7 @@ function Home() {
               Entry Lists
             </button>
           </div>
-          <div className="flex-1 h-fit py-0 flex flex-col items-center justify-center gap-3 px-5 overflow-y-auto">
+          <div className="flex-1 h-full py-4 flex flex-col items-center justify-center gap-3 px-5 overflow-y-auto">
             <div className="w-full h-fit min-h-[300px] bg-red-500 max-w-[300px] flex items-center justify-center">
               <img
                 src="./assets/excell_example.png"

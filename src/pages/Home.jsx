@@ -14,19 +14,19 @@ function Home() {
         <div className="w-full h-full bg-white rounded-2xl">
           <div className="border-b border-stone-200 flex items-center justify-center">
             {/* tabs */}
-            <button className="w-full py-3 px-6 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-textColor ">
+            <button className="w-full py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-textColor ">
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-full py-3 px-6 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
+            <button className="w-full py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-full py-3 px-6 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
+            <button className="w-full py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className="w-full py-3 px-6 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
+            <button className="w-full py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-transparent">
               <LuListMinus className="text-lg" />
               Lists
             </button>

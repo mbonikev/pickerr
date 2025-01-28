@@ -32,7 +32,7 @@ function Home() {
             <div className="w-full h-fit min-h-[300px] bg-red-500 max-w-[300px] flex items-center justify-center">
               <img
                 src="./assets/excell_example.png"
-                className="w-fit h-fit rounded-2xl shadow-xl object-contain"
+                className="w-fit h-fit"
               />
             </div>
             <h1 className="text-xl font-bold text-center">

@@ -29,7 +29,7 @@ function Home() {
               Entry Lists
             </button>
           </div>
-          <div className="flex items-center justify-center gap-3 px-5">
+          <div className="h-fit py-10 flex items-center justify-center gap-3 px-5">
             <button
               className={`${tabStyle} border-transparent bg-textColor text-white rounded-xl `}
             >

@@ -18,7 +18,7 @@ function TopBar() {
         V1.0
       </div>
       {/* Links */}
-      <div className="flex-1 flex items-center justify-end px-4 gap-3">
+      <div className="flex-1 flex items-center justify-end px-4 gap-1">
         <button className="text-xl h-[32px] aspect-square flex items-center justify-center cursor-pointer hover:bg-textColorWeak/20 rounded-xl">
           <LuSettings />
         </button>
@@ -30,7 +30,7 @@ function TopBar() {
         </button>
         <Link
           to="/how-it-works"
-          className="text-base px-3 bg-mainColor text-white py-1 rounded-lg"
+          className="text-base px-3 bg-mainColor text-white py-1 rounded-lg ml-3"
         >
           Sign in
         </Link>

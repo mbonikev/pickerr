@@ -23,7 +23,7 @@ function TopBar() {
           Settings
         </Link>
         <Link to="/how-it-works" className="text-base">
-          How It Works
+          Sign in
         </Link>
       </div>
     </div>

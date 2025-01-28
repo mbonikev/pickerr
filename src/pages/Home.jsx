@@ -39,7 +39,7 @@ function Home() {
           </div>
           <div className="flex items-center justify-center gap-3 px-5">
             {/* tabs */}
-            <button className={`${tabStyle} bg-textColor `}>
+            <button className={`${tabStyle} bg-textColor text-white rounded-xl `}>
               <LuListMinus className="text-lg" />
               Entry Lists
             </button>

@@ -11,9 +11,9 @@ function TopBar() {
         <div className='h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak'>V1.0</div>
         {/* links */}
         <div className='flex items-center justify-center px-4 gap-4'>
-          <Link to="/" className='text-base'>Report</Link>
-          <Link to="/" className='text-base'>Doc</Link>
-          <Link to="/" className='text-base'>Report</Link>
+          <Link to="/" className='text-base'>Home</Link>
+          <Link to="/" className='text-base'>Home</Link>
+          <Link to="/" className='text-base'>Home</Link>
         </div>
     </div>
   )

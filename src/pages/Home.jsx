@@ -16,8 +16,7 @@ function Home() {
           <h1 className="px-5 text-xl font-medium mb-5 text-textColorWeak">
             Create Entries
           </h1>
-          {/* <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
-            {/* tabs */}
+          <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             <button className={`${tabStyle} text-textColor border-textColor`}>
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet
@@ -28,7 +27,7 @@ function Home() {
               <LuListMinus className="text-lg" />
               Entry Lists
             </button>
-          </div> */}
+          </div>
           <div className="flex-1 h-fit py-20 flex flex-col items-center justify-center gap-3 px-5 overflow-y-auto">
             <div className="w-full h-fit min-h-fit max-w-[300px]">
               <img

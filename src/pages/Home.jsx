@@ -32,7 +32,7 @@ function Home() {
             <div className="w-full h-fit min-h-[300px] max-w-[300px]">
               <img
                 src="./assets/excell_example.png"
-                className="w-full h-fit rounded-2xl shadow-xl mb-3"
+                className="w-full h-fit rounded-2xl shadow-xl mb-3 object-contain"
               />
             </div>
             <h1 className="text-xl font-bold text-center">

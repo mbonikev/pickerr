@@ -11,7 +11,9 @@ function Home() {
       {/* tweaks */}
       <div className="w-[32vw] max-w-[32vw] min-h-full bg-bodyColor">
         <div className="w-full h-full bg-white rounded-2xl">
-          <div className="border-b border-stone-200"></div>
+          <div className="border-b border-stone-200 flex items-center justify-center">
+            
+          </div>
         </div>
       </div>
     </div>

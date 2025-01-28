@@ -20,13 +20,13 @@ function TopBar() {
       </div>
       {/* Links */}
       <div className="flex-1 flex items-center justify-end px-4 gap-1">
-        <button className="text-xl h-[32px] aspect-square flex items-center justify-center cursor-pointer hover:bg-textColorWeak/20 rounded-xl">
+        <button className={`${buttonStyle}`}>
           <LuSettings />
         </button>
-        <button className="text-xl h-[32px] aspect-square flex items-center justify-center cursor-pointer hover:bg-textColorWeak/20 rounded-xl">
+        <button className={`${buttonStyle}`}>
           <LuSettings />
         </button>
-        <button className="text-xl h-[32px] aspect-square flex items-center justify-center cursor-pointer hover:bg-textColorWeak/20 rounded-xl">
+        <button className={`${buttonStyle}`}>
           <LuSettings />
         </button>
         <Link

@@ -29,16 +29,7 @@ function Home() {
               Entry Lists
             </button>
           </div>
-          <div className="flex-1 w-full p-5">
-            <textarea
-              name=""
-              id=""
-              placeholder="Paste list (separete entries by commas or space..."
-              className="w-full h-full bg-bodyColor rounded-2xl p-4 text-lg outline-none text-textColor placeholder:text-textColorWeak/60 resize-none"
-            ></textarea>
-          </div>
           <div className="flex items-center justify-center gap-3 px-5">
-            {/* tabs */}
             <button
               className={`${tabStyle} border-transparent bg-textColor text-white rounded-xl `}
             >
@@ -50,6 +41,26 @@ function Home() {
               Clear
             </button>
           </div>
+          {/* <div className="flex-1 w-full p-5">
+            <textarea
+              name=""
+              id=""
+              placeholder="Paste list (separete entries by commas or space..."
+              className="w-full h-full bg-bodyColor rounded-2xl p-4 text-lg outline-none text-textColor placeholder:text-textColorWeak/60 resize-none"
+            ></textarea>
+          </div> */}
+          {/* <div className="flex items-center justify-center gap-3 px-5">
+            <button
+              className={`${tabStyle} border-transparent bg-textColor text-white rounded-xl `}
+            >
+              Pick
+            </button>
+            <button
+              className={`${tabStyle} border-transparent bg-bodyColor rounded-xl`}
+            >
+              Clear
+            </button>
+          </div> */}
         </div>
       </div>
     </div>

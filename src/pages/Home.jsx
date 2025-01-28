@@ -30,7 +30,7 @@ function Home() {
             </button>
           </div>
           <div className="flex-1 h-fit py-20 flex flex-col items-center justify-center gap-3 px-5 overflow-y-auto">
-            <div className="w-full h-full">
+            <div className="w-full h-ffit">
               <img
                 src="./assets/excell_example.png"
                 className="w-full h-fit rounded-2xl shadow-xl mb-3"

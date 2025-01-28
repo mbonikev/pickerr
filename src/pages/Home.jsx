@@ -39,11 +39,11 @@ function Home() {
           </div>
           <div className="flex items-center justify-center gap-3 px-5">
             {/* tabs */}
-            <button className={`${tabStyle} bg-textColor text-white rounded-xl `}>
+            <button className={`${tabStyle} border-transparent bg-textColor text-white rounded-xl `}>
               Pick
             </button>
             <button
-              className={`${tabStyle} text-textColorWeak border-transparent`}
+              className={`${tabStyle} border-transparent bg-bodyColor`}
             >
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet

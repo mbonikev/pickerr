@@ -12,7 +12,7 @@ function Home() {
       {/* tweaks */}
       <div className="w-[32vw] max-w-[32vw] min-h-full bg-bodyColor">
         <div className="w-full h-full bg-white rounded-2xl">
-          <div className="border-b border-stone-200 flex items-center justify-center">
+          <div className="border-b border-stone-200 flex items-center justify-center gap-3">
             {/* tabs */}
             <button className="w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px] border-textColor ">
               <LuListMinus className="text-lg" />

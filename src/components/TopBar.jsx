@@ -19,7 +19,7 @@ function TopBar() {
       </div>
       {/* Links */}
       <div className="flex-1 flex items-center justify-end px-4 gap-3">
-        <button className="text-lg">
+        <button className="text-xl">
           <LuSettings />
         </button>
         <Link to="/how-it-works" className="text-base px-3 bg-mainColor text-white py-1 rounded-lg">

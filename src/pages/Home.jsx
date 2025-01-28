@@ -19,7 +19,7 @@ function Home() {
           <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             {/* tabs */}
             <button
-              className={`${tabStyle} text-mainColor border-mainColor`}
+              className={`${tabStyle} text-textColor border-textColor`}
             >
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet

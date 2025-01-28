@@ -26,12 +26,6 @@ function Home() {
             <div className="h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak">
               V1.0
             </div>
-            {/* Links */}
-            <div className="flex-1 flex items-center justify-end gap-1">
-              {/* <button className={`${buttonStyle}`}>
-          <LuPalette />
-        </button> */}
-            </div>
           </div>
           <div className="border-b border-stone-200 flex items-center justify-center gap-3 px-5">
             {/* tabs */}

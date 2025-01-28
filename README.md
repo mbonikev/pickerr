@@ -1,8 +1,15 @@
-# React + Vite
+# Pickerr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pickerr lets you input a list of options and randomly selects one for you. Perfect for quick decisions!
 
-Currently, two official plugins are available:
+## How to Use
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Enter your options.
+2. Hit "Pick."
+3. Watch Pickerr choose one randomly!
+
+## Features
+
+- Simple, clean interface
+- Instant random selection
+- Great for decision-making

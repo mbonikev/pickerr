@@ -43,7 +43,7 @@ function Home() {
               Pick
             </button>
             <button
-              className={`${tabStyle} border-transparent bg-bodyColor`}
+              className={`${tabStyle} border-transparent bg-bodyColor rounded-xl`}
             >
               <LuFileSpreadsheet className="text-lg" />
               Excell Sheet

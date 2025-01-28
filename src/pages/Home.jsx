@@ -33,7 +33,7 @@ function Home() {
             <textarea
               name=""
               id=""
-              placeholder="Paste list (separete entries by commas(,) or space ( )..."
+              placeholder="Paste list (separete entries by commas or space..."
               className="w-full h-full bg-bodyColor rounded-2xl p-4 text-textColor placeholder:text-textColorWeak/60 resize-none"
             ></textarea>
           </div>

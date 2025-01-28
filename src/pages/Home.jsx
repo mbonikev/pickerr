@@ -26,7 +26,7 @@ function Home() {
             </button>
           </div>
           <div className="flex-1 w-full p-5">
-            <textarea name="" id="" className="w-full h-full bg-bodyColor rounded-2xl resize-none"></textarea>
+            <textarea name="" id="" className="w-full h-full bg-bodyColor rounded-2xl p-4 text-textColor placeholder:text-textColorWeak/60 resize-none"></textarea>
           </div>
         </div>
       </div>

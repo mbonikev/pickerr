@@ -26,7 +26,7 @@ function Home() {
             </button>
           </div>
           <div className="flex-1 w-full p-5">
-            
+            <textarea name="" id=""></textarea>
           </div>
         </div>
       </div>

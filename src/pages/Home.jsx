@@ -18,7 +18,7 @@ function Home() {
             {/* tabs */}
             <button className={`${tabStyle} border-textColor `}>
               <LuListMinus className="text-lg" />
-              Lists
+              Entry Lists
             </button>
             <button className={`${tabStyle} text-textColorWeak border-transparent`}>
               <LuFileSpreadsheet className="text-lg" />

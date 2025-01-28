@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='w-full h-svh flex'>
+    <div className='w-full h-svh flex bg-bodyColor'>
         {/* content */}
         <div className='flex-1 min-h-full'></div>
         {/* tweaks */}

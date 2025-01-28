@@ -35,11 +35,6 @@ function Home() {
             >
               Pick
             </button>
-            <button
-              className={`${tabStyle} border-transparent bg-bodyColor rounded-xl`}
-            >
-              Clear
-            </button>
           </div>
           {/* <div className="flex-1 w-full p-5">
             <textarea

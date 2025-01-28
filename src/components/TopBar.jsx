@@ -1,22 +1,36 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function TopBar() {
   return (
-    <div className='w-full h-[36px] flex items-center justify-start gap-1.5'>
-        {/* logo */}
-        <div className='w-fit h-full'>
-            <img src="./logo_black.png" alt="logo" loading='lazy' className='h-[25px] w-fit' />
-        </div>
-        <div className='h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak'>V1.0</div>
-        {/* links */}
-        <div className='flex items-center justify-center px-4 gap-4'>
-          <Link to="/" className='text-base'>Home</Link>
-          <Link to="/" className='text-base'>Home</Link>
-          <Link to="/" className='text-base'>Home</Link>
-        </div>
+    <div className="w-full h-[36px] flex items-center justify-start gap-1.5">
+      {/* Logo */}
+      <div className="w-fit h-full">
+        <img src="./logo_black.png" alt="logo" loading="lazy" className="h-[25px] w-fit" />
+      </div>
+      <div className="h-[20px] flex items-center justify-center bg-white px-2 rounded-xl text-sm font-medium text-textColorWeak">
+        V1.0
+      </div>
+      {/* Links */}
+      <div className="flex items-center justify-center px-4 gap-4">
+        <Link to="/" className="text-base">
+          Home
+        </Link>
+        <Link to="/history" className="text-base">
+          History
+        </Link>
+        <Link to="/saved-lists" className="text-base">
+          Saved Lists
+        </Link>
+        <Link to="/settings" className="text-base">
+          Settings
+        </Link>
+        <Link to="/how-it-works" className="text-base">
+          How It Works
+        </Link>
+      </div>
     </div>
-  )
+  );
 }
 
-export default TopBar
+export default TopBar;

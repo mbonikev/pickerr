@@ -3,7 +3,7 @@ import TopBar from "../components/TopBar";
 import { LuListMinus } from "react-icons/lu";
 
 function Home() {
-  const tabSylr = `w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px]`
+  const tabStyle = `w-fit py-3 px-2 text-base font-medium flex items-center justify-center gap-1 border-b-[2px]`
   return (
     <div className="w-full h-svh flex bg-bodyColor p-4 gap-4">
       {/* content */}
@@ -15,19 +15,19 @@ function Home() {
         <div className="w-full h-full bg-white rounded-2xl">
           <div className="border-b border-stone-200 flex items-center justify-center gap-3">
             {/* tabs */}
-            <button className={`${tabSylr} border-textColor `}>
+            <button className={`${tabStyle} border-textColor `}>
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className={`${tabSylr} border-transparent`}>
+            <button className={`${tabStyle} border-transparent`}>
               <LuListMinus className="text-lg" />
               Excell Sheet
             </button>
-            <button className={`${tabSylr} border-transparent`}>
+            <button className={`${tabStyle} border-transparent`}>
               <LuListMinus className="text-lg" />
               Lists
             </button>
-            <button className={`${tabSylr} border-transparent`}>
+            <button className={`${tabStyle} border-transparent`}>
               <LuListMinus className="text-lg" />
               Lists
             </button>

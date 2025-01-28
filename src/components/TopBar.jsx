@@ -22,7 +22,7 @@ function TopBar() {
         <Link to="/history" className="text-base">
           History
         </Link>
-        <button className="text-base">
+        <button className="text-lg">
           <LuSettings />
         </button>
         <Link to="/how-it-works" className="text-base">

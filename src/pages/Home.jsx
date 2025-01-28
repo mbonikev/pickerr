@@ -30,7 +30,7 @@ function Home() {
             </button>
           </div>
           <div className="h-full py-10 flex flex-col items-center justify-center gap-3 px-5">
-            <h1 className=""></h1>
+            <h1 className="text-xl">Import Excell File</h1>
             <button
               className={`${tabStyle} max-w-[200px] border-transparent bg-textColor text-white rounded-xl `}
             >

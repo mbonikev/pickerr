@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function TopBar() {
   return (
@@ -8,6 +9,7 @@ function TopBar() {
             <img src="./logo_black.png" alt="logo" loading='lazy' className='h-[25px] w-fit' />
         </div>
         {/* links */}
+        <Link>Picker</Link>
     </div>
   )
 }

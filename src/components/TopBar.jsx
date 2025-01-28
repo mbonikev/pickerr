@@ -9,7 +9,7 @@ function TopBar() {
             <img src="./logo_black.png" alt="logo" loading='lazy' className='h-[25px] w-fit' />
         </div>
         {/* links */}
-        <div className='h-[20px] flex items-center justify-center bg-white'>Picker</div>
+        <div className='h-[20px] flex items-center justify-center bg-stone-300'>Picker</div>
     </div>
   )
 }

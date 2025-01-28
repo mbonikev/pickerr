@@ -20,9 +20,9 @@ function TopBar() {
       </div>
       {/* Links */}
       <div className="flex-1 flex items-center justify-end gap-1">
-        <button className={`${buttonStyle}`}>
+        {/* <button className={`${buttonStyle}`}>
           <LuPalette />
-        </button>
+        </button> */}
       </div>
     </div>
   );

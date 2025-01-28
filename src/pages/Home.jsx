@@ -4,7 +4,9 @@ function Home() {
   return (
     <div className="w-full h-svh flex bg-bodyColor p-4 gap-4">
       {/* content */}
-      <div className="flex-1 min-h-full"></div>
+      <div className="flex-1 min-h-full">
+        
+      </div>
       {/* tweaks */}
       <div className="w-[32vw] max-w-[32vw] min-h-full bg-bodyColor">
         <div className="w-full h-full bg-white rounded-2xl"></div>

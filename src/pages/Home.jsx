@@ -39,14 +39,15 @@ function Home() {
           </div>
           <div className="flex items-center justify-center gap-3 px-5">
             {/* tabs */}
-            <button className={`${tabStyle} border-transparent bg-textColor text-white rounded-xl `}>
+            <button
+              className={`${tabStyle} border-transparent bg-textColor text-white rounded-xl `}
+            >
               Pick
             </button>
             <button
               className={`${tabStyle} border-transparent bg-bodyColor rounded-xl`}
             >
-              <LuFileSpreadsheet className="text-lg" />
-              Excell Sheet
+              Clear
             </button>
           </div>
         </div>

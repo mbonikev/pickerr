@@ -34,7 +34,7 @@ function Home() {
               name=""
               id=""
               placeholder="Paste list (separete entries by commas or space..."
-              className="w-full h-full bg-bodyColor rounded-2xl p-4 text-lg text-textColor placeholder:text-textColorWeak/60 resize-none"
+              className="w-full h-full bg-bodyColor rounded-2xl p-4 text-lg outline-none text-textColor placeholder:text-textColorWeak/60 resize-none"
             ></textarea>
           </div>
         </div>

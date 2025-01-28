@@ -25,7 +25,9 @@ function Home() {
               Excell Sheet
             </button>
           </div>
-          <div className="flex-1 w-full"></div>
+          <div className="flex-1 w-full p-5">
+            
+          </div>
         </div>
       </div>
     </div>

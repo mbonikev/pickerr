@@ -30,6 +30,7 @@ function Home() {
             </button>
           </div>
           <div className="h-full py-10 flex flex-col items-center justify-center gap-3 px-5">
+            <img src="./assets/excell_example.png" alt="" />
             <h1 className="text-xl font-bold text-center">Import Excell File</h1>
             <h1 className="text-base max-w-[400px] mb-4 font-normal text-textColorWeak text-center">Pickerr will automatically detect first column, make sure your entries are in the correct comun</h1>
             <button
